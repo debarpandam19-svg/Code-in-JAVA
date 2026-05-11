@@ -42,7 +42,7 @@ public class GameIdeaSimulation {
             }
             if (HP <= 0) {
                 System.out.println("\nYou have been defeated! Game Over.");
-                break;
+                return;
             }
         }
     }
