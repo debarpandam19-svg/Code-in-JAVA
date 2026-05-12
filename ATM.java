@@ -17,23 +17,14 @@ public class ATM {
         if(withdraw <= balance){
             balance -= withdraw;
             System.out.println("Withdrawal successful! Your new balance is: " + balance);
-        } else {
+        } 
+        else {
             System.out.println("Insufficient funds! Your current balance is: " + balance);
         }
-        } else {
+        } 
+        else {
             System.out.println("Access denied! Incorrect pin.");
         }
         sc.close();
-
-        
-
-
-
-
-
-
-
-
-
     }
 }
